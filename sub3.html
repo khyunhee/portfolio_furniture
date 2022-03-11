@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A CHAIRY TALE</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/bag.svg">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- font -->
+    <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet">
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/sub3.css">
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+
+<div id="header">
+
+</div> 
+
+
+<section class="product_section">
+    <div class="section_title"><h2>PRODUCT</h2></div>
+
+    <div class="search_container">
+        <input type="search" id="search" placeholder="검색어를 입력해 주세요.">
+        <button id="searchBtn">검색</button>
+    </div>
+
+    <div id="buttons">
+        <button class="item_list" onclick="filterItem('all')">All</button>
+        <button class="item_list" onclick="filterItem('seating')">Seating</button>
+        <button class="item_list" onclick="filterItem('gaming')">Gaming</button>
+        <button class="item_list" onclick="filterItem('workspaces')">Workspaces</button>
+        <button class="item_list" onclick="filterItem('tables')">Tables</button>
+        <button class="item_list" onclick="filterItem('storage')">Storage</button>
+        <button class="item_list" onclick="filterItem('accessories')">Accessories</button>
+    </div>
+    <div id="items"></div>
+
+
+</section>
+
+
+<div id="footer">
+
+</div>
+    <script src="./js/sub3.js"></script>
+    <script src="./js/common.js"></script>
+</body>
+</html>
