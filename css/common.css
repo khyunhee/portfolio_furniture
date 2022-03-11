@@ -26,7 +26,6 @@ body {background: #f5f4f0;}
     left: 0; top: 0; right: 0;
     height: 70px;
     background-color: #f5f4f0;
-    border-bottom: 1px solid #525252;
     z-index: 999;
 }
 .nav_container nav {

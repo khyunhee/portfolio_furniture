@@ -15,7 +15,7 @@ var headerCont = `
             </div>
         </li>
         <li>
-            <a href="./index.html" class="logo">A CHAIRY TALE</a>
+            <a href="/index.html" class="logo">A CHAIRY TALE</a>
         </li>
         <li>
             <a href="#" class="bag"></a>
@@ -24,12 +24,12 @@ var headerCont = `
     <!-- mobile menu end -->
 
     <ul class="nav_menu">
-        <li><a href="./index.html" class="logo">A CHAIRY TALE</a></li>
+        <li><a href="/index.html" class="logo">A CHAIRY TALE</a></li>
         <li>
             <a href="#">브랜드 빌리프</a>
         </li>
         <li>
-            <a href="./sub2.html">제품</a>
+            <a href="/sub2.html">제품</a>
             <i class='bx bx-plus more proMore'></i>
             <ul class="sub_menu product_sub">
                 <li><a href="#">Seating</a></li>
@@ -41,13 +41,13 @@ var headerCont = `
             </ul>
         </li>
         <li>
-            <a href="/kakao-map-api/index.html">플래그십 스토어</a>
+            <a href="#">플래그십 스토어</a>
         </li>
         <li>
-            <a href="./sub5.html">고객지원</a>
+            <a href="/sub5.html">고객지원</a>
             <i class='bx bx-plus more sptMore'></i>
             <ul class="sub_menu support_sub">
-                <li><a href="./sub5.html">FAQ</a></li>
+                <li><a href="/sub5.html">FAQ</a></li>
                 <li><a href="#">A/S</a></li>
                 <li><a href="#">문의하기</a></li>
             </ul>
