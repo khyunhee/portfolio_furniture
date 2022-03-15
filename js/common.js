@@ -26,7 +26,7 @@ var headerCont = `
     <ul class="nav_menu">
         <li><a href="./index.html" class="logo">A CHAIRY TALE</a></li>
         <li>
-            <a href="#">브랜드 빌리프</a>
+            <a href="./sub1.html">브랜드 빌리프</a>
         </li>
         <li>
             <a href="./sub2.html">제품</a>
@@ -41,10 +41,10 @@ var headerCont = `
             </ul>
         </li>
         <li>
-            <a href="/kakao-map-api/index.html">플래그십 스토어</a>
+            <a href="./kakao-map-api/index.html">플래그십 스토어</a>
         </li>
         <li>
-            <a href="./sub5.html">고객지원</a>
+            <a href="./sub4.html">고객지원</a>
             <i class='bx bx-plus more sptMore'></i>
             <ul class="sub_menu support_sub">
                 <li><a href="./sub5.html">FAQ</a></li>
@@ -251,8 +251,8 @@ var footerCont = `
 footerSpace.innerHTML = footerCont;
 
 
-
 /* scroll up */
 function scrollTop(){
     window.scrollTo(0,0);
 }
+

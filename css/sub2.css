@@ -1,33 +1,43 @@
 @charset "utf-8";
 
 @media all and (min-width: 1024px) {
-
     .product_section {
         width: 100%; height: 100%;
         padding: 100px 60px 50px;
     }
 
+    .product_section .section_mark {
+        padding: 0 200px 80px;
+        display: flex;
+        align-items: center;
+    }
+    .product_section .section_mark a {
+        display: block;
+        color: #080808;
+        font-size: .8rem;
+        font-weight: 300;   
+    }
+    .product_section .section_mark a:last-child {
+        color: #f18706;
+    }
+    .product_section .section_mark .sub_arrow {
+        width: 15px;
+        margin: 0 8px;
+    }
+
     .product_section .section_title {
-        width: 80%;
-        padding: 0 50px;
+        width: 100%;
+        padding: 0 200px;
         text-align: left;
     }
     .product_section .section_title h2 {
         position: relative;
-        padding-bottom: 30px;
-        font-size: 3.25rem;
+        padding: 0 0 30px;
+        font-size: 4rem;
         font-family: var(--eng-font);
         font-weight: 300;
         color: #080808;
     }
-    /* .product_section .section_title h2::before {
-        content: "";
-        position: absolute;
-        top: 55%; left: 37%;
-        transform: translate(-50%, -50%);
-        width: 40%; height: 1px;
-        background: #080808;
-    } */
 
     .product_section .search_container {
         position: relative;
@@ -63,6 +73,8 @@
 
     /*products arry*/
     #items {
+        width: 1500px;
+        margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(4, auto);
         grid-gap: 15px;
@@ -100,6 +112,10 @@
         padding: 60px 50px;
     }
 
+    .product_section .section_mark {
+        display: none;
+    }
+
     .product_section .section_title {
         width: 100%;
         padding: 60px 0;
@@ -107,8 +123,8 @@
     }
     .product_section .section_title h2 {
         position: relative;
-        padding-bottom: 15px;
-        font-size: 3.25rem;
+        padding: 30px 0;
+        font-size: 4rem;
         font-family: var(--eng-font);
         font-weight: 300;
         color: #080808;
@@ -184,6 +200,10 @@
         padding: 60px 50px;
     }
 
+    .product_section .section_mark {
+        display: none;
+    }
+
     .product_section .section_title {
         width: 100%;
         padding: 80px 0 0;
@@ -191,8 +211,8 @@
     }
     .product_section .section_title h2 {
         position: relative;
-        padding-bottom: 15px;
-        font-size: 3.25rem;
+        padding: 30px 0;
+        font-size: 4rem;
         font-family: var(--eng-font);
         font-weight: 300;
         color: #080808;
@@ -274,8 +294,8 @@
     }
     .product_section .section_title h2 {
         position: relative;
-        padding-bottom: 15px;
-        font-size: 3.25rem;
+        padding: 30px 0;
+        font-size: 4rem;
         font-family: var(--eng-font);
         font-weight: 300;
         color: #080808;

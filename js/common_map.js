@@ -44,7 +44,7 @@ var headerCont = `
             <a href="#">플래그십 스토어</a>
         </li>
         <li>
-            <a href="/sub5.html">고객지원</a>
+            <a href="/sub4.html">고객지원</a>
             <i class='bx bx-plus more sptMore'></i>
             <ul class="sub_menu support_sub">
                 <li><a href="/sub5.html">FAQ</a></li>

@@ -1,247 +1,294 @@
 @charset "utf-8";
 
 @media all and (min-width: 1024px) {
-    .location_section {
+    .support_section {
         width: 100%; height: 100%;
         padding: 100px 60px 50px;
+        overflow-x: hidden;
     }
-    .location_section .section_title {
-        width: 80%;
-        padding: 0 50px;
+
+    .support_section .section_mark {
+        padding: 0 200px 80px;
+        display: flex;
+        align-items: center;
+    }
+    .support_section .section_mark a {
+        display: block;
+        color: #080808;
+        font-size: .8rem;
+        font-weight: 300;   
+    }
+    .support_section .section_mark a:last-child {
+        color: #f18706;
+    }
+    .support_section .section_mark .sub_arrow {
+        width: 15px;
+        margin: 0 8px;
+    }
+    
+    .support_section .section_title {
+        width: 100%;
+        padding: 0 200px;
         text-align: left;
     }
-    .location_section .section_title h2 {
+    .support_section .section_title h2 {
         position: relative;
-        padding-bottom: 30px;
-        font-size: 3.25rem;
+        padding: 0 0 30px;
+        font-size: 4rem;
         font-family: var(--eng-font);
         font-weight: 300;
         color: #080808;
+        letter-spacing: 2px;
     }
-
-    #map {
-        width:50%; height:800px;
-        margin: 0 auto;
-        border: 1px solid #080808;
-    }
-
-    .overlaybox {
-        width:300px; height:700px;
-        position: fixed;
-        top: 50%; left: 50%;
-        transform: translate(180%, 8%);
-        background:#fff; 
-        overflow-y: scroll;
-    }
-    .overlaybox .image {
-        position:relative;
-        width: 100%; height:150px;
-        margin-bottom: 10px;
-        background: url(../images/store.jpg) no-repeat;
-    }
-    .cont_container {
-        padding: 20px 15px;
-        font-family: var(--kor-font);
-        color: #080808;
-        letter-spacing: 1;
-        font-weight: 500;
-    }
-    .cont_container .title {
-        font-size: .95rem;
-        font-weight: 700;
-        padding-bottom: 5px;
-    }
-    .cont_container .title_info {
-        font-size: .85rem;
-        padding-bottom: 25px;
-    }
-    .cont_container ul li.text {
-        padding-bottom: 30px;
-    }
-    .cont_container ul li.text span.title {
-        font-size: .85rem;
-        letter-spacing: 1px;
-        line-height: 1.5;
-    }
-    .cont_container ul li.text .description {
+    .support_section .section_title p {
         font-size: .8rem;
+        line-height: 1.8;
     }
 
-    .wrap {
+    .support_section .support_more {
+        position: relative;
+    }
+    .support_section .support_more a {
+        line-height: 3;
+        font-size: .9rem;
+        font-weight: 600;
+        color: #080808;
+    }
+    .support_section .support_more a::before {
+        content: "";
+        position: absolute;
+        top: 80%; 
+        width: 5%; height: 1px;
+        background: #080808;
         display: none;
+        transition: display .3s ease;
+    }
+    .support_section .support_more a:hover::before {
+        display: block;
+    }
+
+    .accordion {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 50px 200px;
+        font-family: var(--kor-font);
+    }
+    .accordion .accordion_box {
+        margin-bottom: 15px;
+    }
+    .accordion .accordion_box .accordion_title {
+        position: relative;
+        padding: 20px 40px 20px 5px;
+        border-bottom: 1px solid #080808;
+        cursor: pointer;
+    }
+    .accordion .accordion_box .accordion_title h3 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .accordion .accordion_box .accordion_title .more {
+        position: absolute;
+        top: 40%; right: 3%;
+        font-size: 1.5rem;
+        transition: transform .3s;
+    }
+    .accordion .accordion_box.active .more {
+        transform: rotate(45deg);
+    }
+
+    .accordion .accordion_box .accordion_answer {
+        padding: 20px;
+        border: 1px solid #080808;
+        border-top: none;
+    }
+    .accordion .accordion_box .accordion_answer p {
+        font-size: .9rem;
+        font-weight: 500;
+        margin-bottom: 5px;
     }
 }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-    .location_section {
+    .support_section {
         width: 100%; height: 100%;
         padding: 60px 50px;
+        overflow-x: hidden;
     }
-    .location_section .section_title {
+    .support_section .section_mark {
+        display: none;
+    }
+    .support_section .section_title {
         width: 100%;
-        padding: 60px 0;
+        padding: 60px 0 0;
         text-align: center;
     }
-    .location_section .section_title h2 {
+    .support_section .section_title h2 {
         position: relative;
-        padding-bottom: 15px;
-        font-size: 3.25rem;
+        padding: 30px 0;
+        font-size: 4rem;
         font-family: var(--eng-font);
         font-weight: 300;
         color: #080808;
+        letter-spacing: 2px;
     }
-
-    #map {
-        width: 95%; height:800px;
-        margin: 0 auto;
-        border: 1px solid #080808;
-    }
-
-    .overlaybox {
-        width:300px; height:700px;
-        position: fixed;
-        top: 50%; left: 50%;
-        transform: translate(180%, 8%);
-        background:#fff; 
-        overflow-y: scroll;
-    }
-    .overlaybox .image {
-        position:relative;
-        width: 100%; height:150px;
-        margin-bottom: 10px;
-        background: url(../images/store.jpg) no-repeat;
-    }
-    .cont_container {
-        padding: 20px 15px;
-        font-family: var(--kor-font);
-        color: #080808;
-        letter-spacing: 1;
-        font-weight: 500;
-    }
-    .cont_container .title {
-        font-size: .95rem;
-        font-weight: 700;
-        padding-bottom: 5px;
-    }
-    .cont_container .title_info {
-        font-size: .85rem;
-        padding-bottom: 25px;
-    }
-    .cont_container ul li.text {
-        padding-bottom: 30px;
-    }
-    .cont_container ul li.text span.title {
-        font-size: .85rem;
-        letter-spacing: 1px;
-        line-height: 1.5;
-    }
-    .cont_container ul li.text .description {
+    .support_section .section_title p {
         font-size: .8rem;
+        line-height: 1.8;
     }
 
-    .wrap {
-        display: none;
+    .support_section .support_more {
+        position: relative;
+        padding-top: 30px;
     }
-    
+    .support_section .support_more a {
+        line-height: 3;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #080808;
+    }
+    .support_section .support_more a::before {
+        content: "";
+        position: absolute;
+        top: 90%; left: 45%;
+        width: 10%; height: 1px;
+        background: #080808;
+        display: none;
+        transition: display .3s ease;
+    }
+    .support_section .support_more a:hover::before {
+        display: block;
+    }
+
+    .accordion {
+        width: 100%;
+        margin: 0 auto;
+        padding: 50px 100px;
+        font-family: var(--kor-font);
+    }
+    .accordion .accordion_box {
+        margin-bottom: 15px;
+    }
+    .accordion .accordion_box .accordion_title {
+        position: relative;
+        padding: 20px 40px 20px 5px;
+        border-bottom: 1px solid #080808;
+        cursor: pointer;
+    }
+    .accordion .accordion_box .accordion_title h3 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .accordion .accordion_box .accordion_title .more {
+        position: absolute;
+        top: 40%; right: 3%;
+        font-size: 1.5rem;
+        transition: transform .3s;
+    }
+    .accordion .accordion_box.active .more {
+        transform: rotate(45deg);
+    }
+
+    .accordion .accordion_box .accordion_answer {
+        padding: 20px;
+        border: 1px solid #080808;
+        border-top: none;
+    }
+    .accordion .accordion_box .accordion_answer p {
+        font-size: .9rem;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
 }
 
 @media (max-width: 767px) {
-    .location_section {
+    .support_section {
         width: 100%; height: 100%;
         padding: 60px 50px;
+        overflow-x: hidden;
     }
-    .location_section .section_title {
+    .support_section .section_mark {
+        display: none;
+    }
+    .support_section .section_title {
         width: 100%;
         padding: 60px 0;
         text-align: center;
     }
-    .location_section .section_title h2 {
+    .support_section .section_title h2 {
         position: relative;
-        padding-bottom: 15px;
-        font-size: 3.25rem;
+        padding: 30px 0;
+        font-size: 4rem;
         font-family: var(--eng-font);
         font-weight: 300;
         color: #080808;
+        letter-spacing: 2px;
     }
-
-    #map {
-        width: 90%; height: 600px;
-        margin: 0 auto;
-        border: 1px solid #080808;
-    }
-
-    .overlaybox {
-       display: none;
+    .support_section .section_title p {
+        font-size: .925rem;
+        line-height: 1.8;
     }
     
-    /* 모바일용 마크업 */
-    .wrap {
+    .support_section .support_more {
+        position: relative;
+        padding-top: 30px;
+    }
+    .support_section .support_more a {
+        line-height: 3;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #080808;
+    }
+    .support_section .support_more a::before {
+        content: "";
         position: absolute;
-        left: 0; bottom: 50px;
-        width: 288px; height: 132px;
-        margin-left: -144px;
-        text-align: left;
-        overflow: hidden;
-        font-size: .8rem;
-        font-family: var(--kor-font);
-        line-height: 1.5;
+        top: 90%; left: 43%;
+        width: 14%; height: 1px;
+        background: #080808;
+        display: none;
+        transition: display .3s ease;
     }
-    .wrap * {
-        padding: 0; margin: 0;
-    }
-    .wrap .info {
-        width: 286px; height: 120px;
-        overflow: hidden;
-        background: #fff;
+    .support_section .support_more a:hover::before {
+        display: block;
     }
 
-    .info .title {
-        padding: 5px 0 0 10px; height: 30px; 
-        background: #eee;
-        border-bottom: 1px solid #ddd;
-        font-size: .9rem;
-        font-weight: 600;
+    .accordion {
+        width: 100%;
+        padding: 50px 3px;
+        font-family: var(--kor-font);
     }
-    .info .close {
-        position: absolute;
-        top: 5px; right: 15px;
-        width: 20px; height: 20px;
+    .accordion .accordion_box {
+        margin-bottom: 15px;
     }
-    .info .close i {
-        font-size: 1.5rem;
-    }
-    .info .close:hover {
+    .accordion .accordion_box .accordion_title {
+        position: relative;
+        padding: 20px 40px 20px 5px;
+        border-bottom: 1px solid #080808;
         cursor: pointer;
     }
-    .info .desc {
-        width: 100%;
-        position: relative;
-        margin: 0 auto;
-        padding: 15px 20px;
-        height: 75px;
-    }
-    .desc .ellipsis {
-        padding-bottom: 5px;
+    .accordion .accordion_box .accordion_title h3 {
+        font-size: .95rem;
         font-weight: 600;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
     }
-    .desc .jibun {
-        font-size: 11px;
-        color: #888;
-        margin-top: -2px;
-    }
-    .info:after {
-        content: '';
+    .accordion .accordion_box .accordion_title .more {
         position: absolute;
-        margin-left: -12px;
-        left: 50%; bottom: 0;
-        width: 22px; height: 12px;
-        background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')
+        top: 30%; right: 3%;
+        font-size: 1.5rem;
+        transition: transform .3s;
     }
-    .info .link {
-        font-weight: 600;
-        color: #5085BB;
+    .accordion .accordion_box.active .more {
+        transform: rotate(45deg);
     }
+
+    .accordion .accordion_box .accordion_answer {
+        padding: 20px;
+        border: 1px solid #080808;
+        border-top: none;
+    }
+    .accordion .accordion_box .accordion_answer p {
+        font-size: .8rem;
+        line-height: 1.5;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
 }
