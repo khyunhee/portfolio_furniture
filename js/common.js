@@ -174,13 +174,6 @@ subBtn2.addEventListener("click", () => {
 });
 
 
-// $(document).ready(function(){
-//     $("#more").click(function(){
-//         $(".sub_menu").slideToggle();
-//     });
-// });
-
-
 
 
 /* footer */
@@ -240,7 +233,7 @@ var footerCont = `
     <div class="copyright">
        <p>&copy; A CHAIRY TALE CORPORATION. ALL RIGHTS RESERVED.</p>
     </div>
-    <a href="#" class="scroll_up" onclick="scrollTop()">
+    <a href="#" class="scroll_up">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
         <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
         </svg>
@@ -252,7 +245,11 @@ footerSpace.innerHTML = footerCont;
 
 
 /* scroll up */
-function scrollTop(){
-    window.scrollTo(0,0);
-}
+//버튼 생성
+const scrollBtn = document.querySelector(".scroll_up");
 
+//클릭 시 문서 상단으로 이동
+scrollBtn.addEventListener("click", () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+});

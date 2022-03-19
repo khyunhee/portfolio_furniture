@@ -12,9 +12,8 @@
     <!-- js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <!-- css -->
-    <link rel="stylesheet" href="./css/sub1.css">
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/sub1.css">
     
 </head>
 <body>
@@ -23,61 +22,100 @@
 
 </div> 
 
-<section class="scroll_container" data-scroll-container>
-    <article class="hero">
-        <img src="./images/left.jpg" alt="" data-scroll data-scroll-speed="6">
-        <img src="./images/right.jpg" alt="" data-scroll data-scroll-speed="-10">
-    </article>
-    <article class="hero_txt" data-scroll data-scroll-speed="3">
-        <h1>A Perfect furniture</h1>
-    </article>
+<section class="scroll_container">
+    <div class="hero">
+            <h1 class="animate-txt">
+            A
+            Perfect<br> 
+            Balance<br>
+            for Your<br> 
+            Convenience
+            </h1>
+    </div>
+    <div class="hero_img">
+        <img class="animate-heading" src="./images/about.jpg" alt="">
+    </div>
 
     <article class="part1">
         <div class="span_box">
-            <span data-scroll data-scroll-speed="2">s</span>
-            <span data-scroll data-scroll-speed="1">c</span>
-            <span data-scroll data-scroll-speed="3">r</span>
-            <span data-scroll data-scroll-speed="-1">o</span>
-            <span data-scroll data-scroll-speed="3">l</span>
-            <span data-scroll data-scroll-speed="-1">l</span>
+            <span>s</span>
+            <span>c</span>
+            <span>r</span>
+            <span>o</span>
+            <span>l</span>
+            <span>l</span>
         </div>
     </article>
 
-    <article class="part2" data-scroll data-scroll-speed="2">
-        <p data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal">Do you love to scroll</p>
-        <p data-scroll data-scroll-speed="2" data-scroll-direction="horizontal">scroll more to see</p>
+    <article class="part2">
+        <p class="animate-txt-2">Discover the best in</p>
+        <p class="animate-txt-2">modern design</p>
     </article>
 
-    <article class="part3" data-scroll>
-        <p data-scroll>locomotive animation</p>
+    <article class="part3">
+        <p class="animate-txt-3">
+            We create the<br>
+            following types of<br>
+            <span>products:</span>
+        </p>
         <div class="img_container">
-            <img src="./images/scroll1.jpg" alt="">
-            <img src="./images/scroll1.jpg" alt="">
-            <img src="./images/scroll2.jpg" alt="">
-            <img src="./images/scroll3.jpg" alt="">
-            <img src="./images/scroll4.jpg" alt="">
-            <img src="./images/scroll5.jpg" alt="">
+            <div class="img_box">
+                <img src="./images/about.jpg" alt="">
+                <div class="overlay">
+                    <h1 class="img_title">Seating</h1>
+                </div>
+            </div>
+            <div class="img_box">
+                <img src="./images/scroll1.jpg" alt="">
+                <div class="overlay">
+                    <h1 class="img_title">Accessories</h1>
+                </div>
+            </div>
+            <div class="img_box">
+                <img src="./images/scroll2.jpg" alt="">
+                <div class="overlay">
+                    <h1 class="img_title">Tables</h1>
+                </div>
+            </div>
+            <div class="img_box">
+                <img src="./images/scroll5.jpg" alt="">
+                <div class="overlay">
+                    <h1 class="img_title">Storage</h1>
+                </div>
+            </div>
+            <div class="img_box">
+                <img src="./images/scroll4.jpg" alt="">
+                <div class="overlay">
+                    <h1 class="img_title">Workspaces</h1>
+                </div>
+            </div>
+            <div class="img_box">
+                <img src="./images/scroll3.jpg" alt="">
+                <div class="overlay">
+                    <h1 class="img_title">Gaming</h1>
+                </div>
+            </div>
         </div>
     </article>
 
-    <article class="part4" data-scroll>
-        <div class="img_box" data-scroll>
-            <img src="./images/scroll6.jpg" alt="">
+    <article class="part4">
+        <div class="img_box">
+            <img class="animate-ending" src="./images/scroll6.jpg" alt="">
         </div>
-        <div class="text_box" data-scroll data-scroll-speed="6">
-            <h1 data-scroll>please subscribe us</h1>
-            <p data-scroll data-scroll-speed="10" data-scroll-position="bottom">if you like this</p>
+        <div class="text_box">
+            <h1>LET'S JOIN WITH US</h1>
+            <span>지금 무료로 가입하고 다양한 멤버 전용 혜택을 누리세요.</span>
+            <a href="#">가입하기</a>
         </div>
     </article>
 
-</section>    
+    <div id="footer">
 
-<div id="footer">
+    </div> 
 
-</div>
-
-
-    <script src="./js/sub1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
     <script src="./js/common.js"></script>
+    <script src="./js/sub1.js"></script>
 </body>
 </html>
