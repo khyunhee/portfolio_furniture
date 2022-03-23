@@ -35,6 +35,24 @@ $('.slide_inner').slick({
       }
     ]
   });
+  /*재생 정지 버튼*/
+  $('.home .slide_controller').click(function(){
+    const $state = $(this).hasClass('stop');
+    //console.log("stop 클래스 있나요" + $state);   //false-재생상태
+
+    //재생상태면 이미지를 변경하면서 슬라이드 멈추기
+    if($state == false) {
+      $(this).addClass('stop');
+      $(this).find('img').attr({'src':'./images/play.png', 'alt':'start'});
+      $('.slide_inner').slick('slickPause');
+    }else {
+      $(this).removeClass('stop');
+      $('.slide_inner').slick('slickPlay');
+
+      $(this).find('img').attr({'src':'./images/pause.png', 'alt':'stop'});
+    }    
+  });
+
 
   $('.best_slider').slick({
     infinite: true,

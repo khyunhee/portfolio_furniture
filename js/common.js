@@ -70,11 +70,11 @@ var headerCont = `
     <div class="quick_link">
         <h2>인기 검색어</h2>
         <ul>
-            <li><a href="#">온라인 스토어</a></li>
-            <li><a href="#">온라인 스토어</a></li>
-            <li><a href="#">온라인 스토어</a></li>
-            <li><a href="#">온라인 스토어</a></li>
-            <li><a href="#">온라인 스토어</a></li>
+            <li><a href="#">소파</a></li>
+            <li><a href="#">리클라이너</a></li>
+            <li><a href="#">램프</a></li>
+            <li><a href="#">테이블</a></li>
+            <li><a href="#">러그</a></li>
         </ul>
     </div>
 </div><!--search_container end-->
@@ -90,11 +90,11 @@ var headerCont = `
     <div class="quick_link">
         <h2>인기 검색어</h2>
         <ul>
-            <li><a href="#">온라인 스토어</a></li>
-            <li><a href="#">온라인 스토어</a></li>
-            <li><a href="#">온라인 스토어</a></li>
-            <li><a href="#">온라인 스토어</a></li>
-            <li><a href="#">온라인 스토어</a></li>
+            <li><a href="#">소파</a></li>
+            <li><a href="#">리클라이너</a></li>
+            <li><a href="#">램프</a></li>
+            <li><a href="#">테이블</a></li>
+            <li><a href="#">러그</a></li>
         </ul>
     </div>
 </div>

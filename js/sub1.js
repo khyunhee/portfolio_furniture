@@ -14,7 +14,7 @@ gsap.registerPlugin(ScrollTrigger);
         scrollTrigger: {
             trigger: ".hero_img",
             start: "top 20%",
-            toggleClass: "active",
+            scrub: true,
         },
         opacity: 0,
         y: -100,
@@ -45,14 +45,14 @@ gsap.registerPlugin(ScrollTrigger);
     });
 
     gsap.from(".animate-ending", {
-        scrollTrigger: ".part4",
+        scrollTrigger: ".animate-ending",
         opacity: 0,
         y: 30,
         duration: 1,
         ease: "Expo.easeInOut"
     });
     gsap.from(".text_box", {
-        scrollTrigger: ".part4",
+        scrollTrigger: ".text_box",
         opacity: 0,
         y: 50,
         duration: 1.2,
