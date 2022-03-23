@@ -27,7 +27,10 @@ body {background: #f5f4f0;}
     height: 70px;
     background-color: #f5f4f0;
     z-index: 999;
+    box-shadow: 0 0 5px 0px rgba(0,0,0,.1);
 }
+
+
 .nav_container nav {
     width: 1400px; height: 100%;
     margin: 0 auto; 
@@ -105,8 +108,7 @@ body {background: #f5f4f0;}
     top: 35px; left: -50px;
     line-height: 40px;
     text-align: center;
-    border: 1px solid #080808;
-    border-top: none;
+    box-shadow: 0 0 5px 0px rgba(0,0,0,.1);
     background-color: #f5f4f0;
     transform: translateY(-10px);
     opacity: 0;
@@ -574,9 +576,8 @@ body {background: #f5f4f0;}
 
 .footer {
     background: #ebeae5;
-    padding: 50px 0;
     line-height: 1.5;
-    padding: 20px 30px;
+    padding: 50px 30px;
 }
 
 .footer .footer_container {
