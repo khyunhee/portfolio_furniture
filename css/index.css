@@ -12,31 +12,32 @@
   
 .home .hero_slide {
     position: relative;
-    max-width: 100%; height: 700px;
+    width: 100%; height: 700px;
 }
 
 .home .hero_slide:nth-child(1) {
     max-width: 100%;
     background: url(../images/slide1.jpg) no-repeat;
+    background-position: 50% 50%;
     background-size: cover;
 }
 .home .hero_slide:nth-child(2) {
     max-width: 100%;
     background: url(../images/slide2.jpg) no-repeat;
     background-size: cover;
-    background-position: 50% 50%
+    background-position: 50% 50%;
 }
 .home .hero_slide:nth-child(3) {
     max-width: 100%;
     background: url(../images/slide3.jpg) no-repeat;
     background-size: cover;
-    background-position: 50% 50%
+    background-position: 50% 50%;
 }
 .home .hero_slide:nth-child(4) {
     max-width: 100%;
     background: url(../images/slide4.jpg) no-repeat;
     background-size: cover;
-    background-position: 50% 50%
+    background-position: 50% 50%;
 }
 
 .home .hero_slide .slide_txt {
@@ -144,8 +145,8 @@
 
 /* about */
 .about {
-    width: 100%; height: 100vh;
-    padding: 50px 150px;
+    width: 100%; height: 100%;
+    padding: 100px 150px;
     word-break: keep-all;
 }
 .about .about_title {}
@@ -226,7 +227,7 @@
 
 /* best */
 .best {
-    width: 100%; height: 100vh;
+    width: 100%; height: 100%;
     padding: 100px 150px;
 }
 
@@ -325,7 +326,7 @@
 
 /* product */
 .product {
-    width: 100%; height: 100vh;
+    width: 100%; height: 100%;
     padding: 120px 150px 50px;
     background: url(../images/bg.jpg) no-repeat;
     background-size: cover;
@@ -399,7 +400,7 @@
 
 /* sns */
 .sns {
-    width: 100%; height: 80vh;
+    width: 100%; height: 80%;
     padding: 150px 30px;
 }
 
@@ -574,7 +575,7 @@
 
 /* about */
 .about {
-    width: 100%; height: 100vh;
+    width: 100%; height: 100%;
     padding: 50px 80px;
     word-break: keep-all;
 }
@@ -642,7 +643,7 @@
 
 /* best */
 .best {
-    width: 100%; height: 100vh;
+    width: 100%; height: 100%;
     padding: 50px 80px;
 }
 
@@ -744,7 +745,7 @@
 
 /* product */
 .product {
-    width: 100%; height: 100vh;
+    width: 100%; height: 100%;
     padding: 70px 80px;
     background: url(../images/bg.jpg) no-repeat;
     background-size: cover;
@@ -818,7 +819,7 @@
 
 /* sns */
 .sns {
-    width: 100%; height: 80vh;
+    width: 100%; height: 80%;
     padding: 50px 80px;
 }
 
@@ -951,7 +952,7 @@
 
 /* about */
 .about {
-    width: 100%; height: 100vh;
+    width: 100%; height: 100%;
     padding: 50px 60px;
     word-break: keep-all;
 }
@@ -1020,7 +1021,7 @@
 
 /* best */
 .best {
-    width: 100%; height: 100vh;
+    width: 100%; height: 100%;
     padding: 50px 60px;
 }
 
@@ -1121,7 +1122,7 @@
 
 /* product */
 .product {
-    width: 100%; height: 100vh;
+    width: 100%; height: 100%;
     padding: 80px 60px 50px;
     background: url(../images/bg.jpg) no-repeat;
     background-size: cover;
@@ -1195,7 +1196,7 @@
 
 /* sns */
 .sns {
-    width: 100%; height: 90vh;
+    width: 100%; height: 90%;
     padding: 130px 50px 0;
 }
 
